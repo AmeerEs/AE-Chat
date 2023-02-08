@@ -1,6 +1,6 @@
 entrypoint = "index.js"
 
-hidden = [".config", "package-lock.json"]
+hidden = [".config"]
 
 [interpreter]
 command = [
@@ -24,7 +24,7 @@ PATH = "/home/runner/$REPL_SLUG/.config/npm/node_global/bin:/home/runner/$REPL_S
 npm_config_prefix = "/home/runner/$REPL_SLUG/.config/npm/node_global"
 
 [gitHubImport]
-requiredFiles = [".replit", "replit.nix", ".config", "package.json", "package-lock.json"]
+requiredFiles = [".replit", "replit.nix", ".config"]
 
 [packager]
 language = "nodejs"
