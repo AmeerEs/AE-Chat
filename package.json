@@ -1,0 +1,23 @@
+{
+  "name": "aechat",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "AmeerEs",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "node-fetch": "^3.2.6",
+    "socket.io": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
