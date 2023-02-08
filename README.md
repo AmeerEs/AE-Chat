@@ -1,2 +1,0 @@
-# NodeProjects
-Node simple projects.
